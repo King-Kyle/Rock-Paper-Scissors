@@ -1,0 +1,145 @@
+*{
+    margin:0;
+    padding:0;
+ }
+
+button:focus{
+    outline:0;
+}
+
+html{
+  position: relative;
+  min-height: 100%;
+}
+ body{
+   text-align: center;
+   background-color: #373737;
+ }
+
+.titleBox{
+  position: relative;
+  width: auto;
+  height: 130px;
+  background-color: #373737;
+  display: flex;
+  justify-content: center; /* align horizontal */
+  align-items: center; /* align vertical */
+}
+
+.title{
+  font-family: 'Fredoka One';
+  font-size: 45px;
+  color: #df744a;
+}
+
+.buttonBox{
+  display: inline-block;
+  display: flex;
+  justify-content: center; /* align horizontal */
+  align-items: center; /* align vertical */
+  background-color: #dcb239;
+}
+
+button{
+  border-color: transparent;
+  background-color: #dcb239;
+  margin: 30px;
+  margin-top: 60px;
+}
+
+img{
+  width: 200px; height: 200px;
+  background-color: #dcb239;
+  border: 0;
+}
+
+img:hover{
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.scoreBox {
+  background-color: #373737;
+}
+
+.userScoreBox, .computerScoreBox{
+  bottom: 100px;
+  width: 14.5%;
+  height: 150px;
+  border-radius: 15px;
+  margin-top: 20px;
+  border: 3px solid black;
+}
+
+.userScoreBox p, .computerScoreBox p{
+  position: relative;
+  font-family: Helvetica;
+  font-weight: bold;
+  top: 15px;
+}
+
+.userScoreBox{
+  position: absolute;
+  left: 50px;
+  background-color: #bfd8d2;
+}
+
+.computerScoreBox{
+  position: absolute;
+  right: 50px;
+  background-color: #bfd8d2;
+}
+
+.score{
+  position: relative;
+  top:40px;
+  font-family: 'Fredoka One';
+  font-size: 50px;
+}
+
+.resultsBox{
+  text-align: center;
+  margin-top: 0px;
+  background-color: #dcb239;
+}
+#result{
+  font-family: 'Bungee Inline', Helvetica;
+  font-size: 20px
+}
+
+#reset{
+  background-color: #df744a;
+  border-radius: 10px;
+  border: 5px solid #373737;
+  padding: 15px;
+  position: relative;
+  text-align: center;
+}
+
+#reset p{
+  font-family: Helvetica;
+  font-size: 15px;
+  font-weight: 600;
+}
+.creds{
+  font-family: 'Bungee Inline';
+  color: white;
+  font-size: 20px;
+}
+
+a{
+  color: white;
+  text-decoration: underline;
+}
+footer{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 35px;
+  background: black;
+  display: flex;
+  justify-content: center; /* align horizontal */
+  align-items: center; /* align vertical */
+}
